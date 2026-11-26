@@ -1,0 +1,292 @@
+export const TEAMS = [
+  {
+    id: 'acceleron-mavericks',
+    name: 'Acceleron Mavericks',
+    shortName: 'MAV',
+    tagline: 'Precision & Pace',
+    primaryColor: '#10b981', // emerald-500
+    secondaryColor: '#059669',
+    badgeBg: 'from-emerald-600 to-teal-800',
+    borderColor: 'border-emerald-500/30',
+    glowColor: 'shadow-emerald-500/20',
+    accentText: 'text-emerald-400',
+    accentBg: 'bg-emerald-500/10',
+    captain: 'Subhadip',
+    players: [
+      { id: 'm1', name: 'Subhadip', jerseySize: 'XXL', jerseyNumber: '23', isCaptain: true, role: 'All-Rounder' },
+      { id: 'm2', name: 'Abhishek', jerseySize: 'XL', jerseyNumber: '3', role: 'Batsman' },
+      { id: 'm3', name: 'Sandipan', jerseySize: 'XL', jerseyNumber: '9', role: 'Bowler' },
+      { id: 'm4', name: 'Bighnesh', jerseySize: 'M', jerseyNumber: '16', role: 'All-Rounder' },
+      { id: 'm5', name: 'Dwebal', jerseySize: 'M', jerseyNumber: '18', role: 'Bowler' },
+      { id: 'm6', name: 'Sannidhya', jerseySize: 'L(42)', jerseyNumber: '6', role: 'Batsman' },
+      { id: 'm7', name: 'Manisha', jerseySize: 'M', jerseyNumber: '7', isFemale: true, role: 'Female All-Rounder' },
+      { id: 'm8', name: 'Ridhhima', jerseySize: 'XL', jerseyNumber: '10', isFemale: true, role: 'Female Batter' },
+      { id: 'm9', name: 'Arijit Das', jerseySize: 'M', jerseyNumber: '1', role: 'Wicket-Keeper' },
+      { id: 'm10', name: 'Biju Paul', jerseySize: 'XXL', jerseyNumber: '24', role: 'Bowler' },
+      { id: 'm11', name: 'Subhrangsu', jerseySize: 'XL', jerseyNumber: '22', role: 'Batsman' },
+      { id: 'm12', name: 'Swapnanil', jerseySize: 'XL', jerseyNumber: '66', role: 'Bowler' },
+      { id: 'm13', name: 'Kamlesh', jerseySize: 'XXL', jerseyNumber: '77', role: 'All-Rounder' },
+      { id: 'm14', name: 'Arefin', jerseySize: 'XXL', jerseyNumber: '17', role: 'Batsman' },
+    ]
+  },
+  {
+    id: 'acceleron-knight-riders',
+    name: 'Acceleron Knight Riders',
+    shortName: 'AKR',
+    tagline: 'Courage & Majesty',
+    primaryColor: '#8b5cf6', // purple-500
+    secondaryColor: '#6d28d9',
+    badgeBg: 'from-purple-700 to-indigo-900',
+    borderColor: 'border-purple-500/30',
+    glowColor: 'shadow-purple-500/20',
+    accentText: 'text-purple-400',
+    accentBg: 'bg-purple-500/10',
+    captain: 'Prosenjit',
+    players: [
+      { id: 'k1', name: 'Prosenjit', jerseySize: 'L', jerseyNumber: '8', isCaptain: true, role: 'All-Rounder' },
+      { id: 'k2', name: 'Rahul C', jerseySize: 'XL', jerseyNumber: '14', role: 'Batsman' },
+      { id: 'k3', name: 'Akshay', jerseySize: 'L', jerseyNumber: '12', role: 'Bowler' },
+      { id: 'k4', name: 'Biswajit', jerseySize: 'L', jerseyNumber: '9', role: 'All-Rounder' },
+      { id: 'k5', name: 'Bingshati', jerseySize: 'L', jerseyNumber: '16', role: 'Bowler' },
+      { id: 'k6', name: 'Arindam', jerseySize: 'M', jerseyNumber: '18', role: 'Batsman' },
+      { id: 'k7', name: 'Santanu', jerseySize: 'L', jerseyNumber: '17', role: 'Wicket-Keeper' },
+      { id: 'k8', name: 'Tirthankar B', jerseySize: 'L', jerseyNumber: '25', role: 'Bowler' },
+      { id: 'k9', name: 'Shramana', jerseySize: 'L', jerseyNumber: '13', isFemale: true, role: 'Female All-Rounder' },
+      { id: 'k10', name: 'Sunamra', jerseySize: 'L', jerseyNumber: '7', role: 'Batsman' },
+      { id: 'k11', name: 'Pritam', jerseySize: 'L', jerseyNumber: '11', role: 'Bowler' },
+      { id: 'k12', name: 'Bikash', jerseySize: 'L', jerseyNumber: '15', role: 'All-Rounder' },
+      { id: 'k13', name: 'Atanu D', jerseySize: 'XXL', jerseyNumber: '34', role: 'Batsman' },
+    ]
+  },
+  {
+    id: 'acceleron-strikers',
+    name: 'Acceleron Strikers',
+    shortName: 'STR',
+    tagline: 'Relentless Power',
+    primaryColor: '#f43f5e', // rose-500
+    secondaryColor: '#e11d48',
+    badgeBg: 'from-rose-600 to-red-900',
+    borderColor: 'border-rose-500/30',
+    glowColor: 'shadow-rose-500/20',
+    accentText: 'text-rose-400',
+    accentBg: 'bg-rose-500/10',
+    captain: 'Tanmoy',
+    players: [
+      { id: 's1', name: 'Tanmoy', jerseySize: 'L', jerseyNumber: '10', isCaptain: true, role: 'All-Rounder' },
+      { id: 's2', name: 'Ashish', jerseySize: 'XL', jerseyNumber: '999', role: 'Power Hitter' },
+      { id: 's3', name: 'Raj', jerseySize: 'L', jerseyNumber: '18', role: 'Batsman' },
+      { id: 's4', name: 'Dwaipayan', jerseySize: 'M', jerseyNumber: '50', role: 'Bowler' },
+      { id: 's5', name: 'Abhijit', jerseySize: 'L', jerseyNumber: '7', role: 'All-Rounder' },
+      { id: 's6', name: 'Pratibha', jerseySize: 'S', jerseyNumber: '1', isFemale: true, role: 'Female All-Rounder' },
+      { id: 's7', name: 'Srija', jerseySize: 'L', jerseyNumber: '99', isFemale: true, role: 'Female Batter' },
+      { id: 's8', name: 'Subhadeep M', jerseySize: 'M', jerseyNumber: '15', role: 'Bowler' },
+      { id: 's9', name: 'Anik', jerseySize: 'XL', jerseyNumber: '11', role: 'Batsman' },
+      { id: 's10', name: 'Amit', jerseySize: 'M', jerseyNumber: '17', role: 'Wicket-Keeper' },
+      { id: 's11', name: 'Rahul P', jerseySize: 'XXL', jerseyNumber: '21', role: 'Bowler' },
+      { id: 's12', name: 'Manoswee', jerseySize: 'L', jerseyNumber: '2', role: 'Batsman' },
+      { id: 's13', name: 'Abhik', jerseySize: 'XL', jerseyNumber: '19', role: 'All-Rounder' },
+      { id: 's14', name: 'Sabarnik', jerseySize: 'XL', jerseyNumber: '14', role: 'Bowler' },
+    ]
+  },
+  {
+    id: 'acceleron-super-xi',
+    name: 'Acceleron Super XI',
+    shortName: 'SXI',
+    tagline: 'Supreme Dominance',
+    primaryColor: '#0284c7', // sky-600
+    secondaryColor: '#0369a1',
+    badgeBg: 'from-blue-600 to-sky-900',
+    borderColor: 'border-sky-500/30',
+    glowColor: 'shadow-sky-500/20',
+    accentText: 'text-sky-400',
+    accentBg: 'bg-sky-500/10',
+    captain: 'Sourav D',
+    players: [
+      { id: 'x1', name: 'Sourav D', jerseySize: 'XXL', jerseyNumber: '28', isCaptain: true, role: 'All-Rounder' },
+      { id: 'x2', name: 'Sadhan', jerseySize: 'L', jerseyNumber: '1', role: 'Batsman' },
+      { id: 'x3', name: 'Rabindra', jerseySize: 'L', jerseyNumber: '13', role: 'Bowler' },
+      { id: 'x4', name: 'Sourava S', jerseySize: 'M', jerseyNumber: '5', role: 'All-Rounder' },
+      { id: 'x5', name: 'Manoswita', jerseySize: 'L', jerseyNumber: '21', isFemale: true, role: 'Female All-Rounder' },
+      { id: 'x6', name: 'Aritreya', jerseySize: 'XL', jerseyNumber: '8', role: 'Bowler' },
+      { id: 'x7', name: 'Tapas', jerseySize: 'L', jerseyNumber: '24', role: 'Batsman' },
+      { id: 'x8', name: 'Debjit D', jerseySize: 'M', jerseyNumber: '5', role: 'Wicket-Keeper' },
+      { id: 'x9', name: 'Ajay', jerseySize: 'XL', jerseyNumber: '11', role: 'Bowler' },
+      { id: 'x10', name: 'Souvik', jerseySize: 'XXL', jerseyNumber: '10', role: 'Batsman' },
+      { id: 'x11', name: 'Somnath', jerseySize: 'L', jerseyNumber: '19', role: 'All-Rounder' },
+      { id: 'x12', name: 'Subhadeep R', jerseySize: 'M', jerseyNumber: '18', role: 'Bowler' },
+      { id: 'x13', name: 'Sanmay', jerseySize: 'XL', jerseyNumber: '99', role: 'Batsman' },
+      { id: 'x14', name: 'Dibyendy', jerseySize: 'L', jerseyNumber: '56', role: 'Bowler' },
+      { id: 'x15', name: 'Anshika', jerseySize: 'L', jerseyNumber: '3', isFemale: true, role: 'Female Batter' },
+    ]
+  },
+  {
+    id: 'acceleron-predator',
+    name: 'Acceleron Predator',
+    shortName: 'PRED',
+    tagline: 'Fierce & Fearless',
+    primaryColor: '#f97316', // orange-500
+    secondaryColor: '#ea580c',
+    badgeBg: 'from-amber-600 to-orange-950',
+    borderColor: 'border-orange-500/30',
+    glowColor: 'shadow-orange-500/20',
+    accentText: 'text-orange-400',
+    accentBg: 'bg-orange-500/10',
+    captain: 'Santanu',
+    players: [
+      { id: 'p1', name: 'Santanu', jerseySize: 'XL', jerseyNumber: '45', isCaptain: true, role: 'All-Rounder' },
+      { id: 'p2', name: 'Dipanjan', jerseySize: 'L', jerseyNumber: '18', role: 'Batsman' },
+      { id: 'p3', name: 'Soumyadip', jerseySize: 'L', jerseyNumber: '21', role: 'Bowler' },
+      { id: 'p4', name: 'Atmoja', jerseySize: 'S', jerseyNumber: '1', isFemale: true, role: 'Female All-Rounder' },
+      { id: 'p5', name: 'Animesh', jerseySize: 'L', jerseyNumber: '17', role: 'Batsman' },
+      { id: 'p6', name: 'Debjit M', jerseySize: 'L', jerseyNumber: '12', role: 'Bowler' },
+      { id: 'p7', name: 'Rifa', jerseySize: 'L', jerseyNumber: '15', isFemale: true, role: 'Female Batter' },
+      { id: 'p8', name: 'Saptarshi', jerseySize: 'L', jerseyNumber: '20', role: 'Wicket-Keeper' },
+      { id: 'p9', name: 'Anirban', jerseySize: 'XL', jerseyNumber: '7', role: 'All-Rounder' },
+      { id: 'p10', name: 'Tirthankar M', jerseySize: 'L', jerseyNumber: '25', role: 'Bowler' },
+      { id: 'p11', name: 'Aditya', jerseySize: 'L', jerseyNumber: '22', role: 'Batsman' },
+      { id: 'p12', name: 'Snehasis', jerseySize: 'L', jerseyNumber: '10', role: 'Bowler' },
+      { id: 'p13', name: 'Atanu', jerseySize: 'XL', jerseyNumber: '35', role: 'Batsman' },
+      { id: 'p14', name: 'Souma', jerseySize: 'L', jerseyNumber: '333', role: 'All-Rounder' },
+    ]
+  }
+];
+
+export const INITIAL_SCHEDULE = [
+  {
+    id: 'm1',
+    matchNumber: 1,
+    stage: 'league',
+    time: '1:25 PM – 2:10 PM',
+    team1Id: 'acceleron-strikers',
+    team2Id: 'acceleron-super-xi',
+    overs: 6,
+    status: 'upcoming', // 'upcoming' | 'live' | 'completed'
+    bettingOpen: true,
+    result: null, // { winnerId: string, team1Score: string, team2Score: string, notes: string }
+  },
+  {
+    id: 'm2',
+    matchNumber: 2,
+    stage: 'league',
+    time: '2:15 PM – 3:00 PM',
+    team1Id: 'acceleron-mavericks',
+    team2Id: 'acceleron-predator',
+    overs: 6,
+    status: 'upcoming',
+    bettingOpen: true,
+    result: null,
+  },
+  {
+    id: 'm3',
+    matchNumber: 3,
+    stage: 'league',
+    time: '3:00 PM – 3:45 PM',
+    team1Id: 'acceleron-knight-riders',
+    team2Id: 'acceleron-strikers',
+    overs: 6,
+    status: 'upcoming',
+    bettingOpen: true,
+    result: null,
+  },
+  {
+    id: 'm4',
+    matchNumber: 4,
+    stage: 'league',
+    time: '3:45 PM – 4:30 PM',
+    team1Id: 'acceleron-super-xi',
+    team2Id: 'acceleron-mavericks',
+    overs: 6,
+    status: 'upcoming',
+    bettingOpen: true,
+    result: null,
+  },
+  {
+    id: 'm5',
+    matchNumber: 5,
+    stage: 'league',
+    time: '4:30 PM – 5:15 PM',
+    team1Id: 'acceleron-predator',
+    team2Id: 'acceleron-knight-riders',
+    overs: 6,
+    status: 'upcoming',
+    bettingOpen: true,
+    result: null,
+  },
+  {
+    id: 'sf1',
+    matchNumber: 6,
+    stage: 'semi-final',
+    title: 'Semi-Final 1',
+    time: '5:45 PM – 6:30 PM',
+    team1Id: null, // to be populated when top 4 qualify
+    team2Id: null,
+    overs: 6,
+    status: 'pending-qualification',
+    bettingOpen: false,
+    result: null,
+  },
+  {
+    id: 'sf2',
+    matchNumber: 7,
+    stage: 'semi-final',
+    title: 'Semi-Final 2',
+    time: '6:35 PM – 7:20 PM',
+    team1Id: null,
+    team2Id: null,
+    overs: 6,
+    status: 'pending-qualification',
+    bettingOpen: false,
+    result: null,
+  },
+  {
+    id: 'final',
+    matchNumber: 8,
+    stage: 'final',
+    title: 'Grand Final',
+    time: '7:25 PM – 9:30 PM',
+    team1Id: null, // to be populated from SF winners
+    team2Id: null,
+    overs: 10,
+    status: 'pending-qualification',
+    bettingOpen: false,
+    result: null,
+  }
+];
+
+export const TOURNAMENT_RULES = [
+  {
+    title: 'Match Format',
+    badge: 'Overs',
+    desc: 'All league matches & semi-finals will consist of 6 overs per innings. The Grand Final match will consist of 10 overs per innings. Maximum 45 mins per match including changeover.'
+  },
+  {
+    title: 'Female Participation (Mandatory)',
+    badge: 'Critical',
+    desc: 'Each team MUST have at least 2 female players in the playing team. At least 1 over of female bowling and 1 over of female batting are mandatory. Female players must also field for at least 1 over.'
+  },
+  {
+    title: 'Bowling Restrictions & Style',
+    badge: 'Bowling',
+    desc: 'League (6 overs): Bowler max 2 overs. Final (10 overs): Bowler max 3 overs. Chucking bowling is ALLOWED. Normal overarm bowling while standing upright is strictly NOT allowed.'
+  },
+  {
+    title: 'Wide, No-Ball & Free Hit',
+    badge: 'Extras',
+    desc: 'Each wide or no-ball incurs 1 extra run and an additional delivery. A Free Hit is awarded after EVERY no-ball.'
+  },
+  {
+    title: 'Dismissals & LBW',
+    badge: 'Umpiring',
+    desc: 'LBW will NOT be applicable in any match. Dismissals allowed: Bowled, Caught, Run Out, Stumped, and Hit Wicket. Umpire decision is final.'
+  },
+  {
+    title: 'Points & Semi-Final Qualification',
+    badge: 'Table',
+    desc: 'Win: 2 points, Tie / No Result: 1 point, Loss: 0 points. Top 4 teams qualify for semi-final (decided by lottery/NRR primary tiebreaker).'
+  },
+  {
+    title: 'Final Super Over',
+    badge: 'Tiebreaker',
+    desc: 'If the final match is tied, a Super Over will be played if time permits; otherwise the tournament committee will decide the champion.'
+  }
+];
